@@ -8,16 +8,16 @@ def swap(spaces, visited):
     return spaces
 
 
-# Επείδηξη λειτουργίας της συνάρτησης swap
+# Επείδηξη λειτουργίας της συνάρτησης swap.
 if __name__ == '__main__':
     print(GREEN + "Start of Swap Test" + DEFAULT)
 
     # Αρχικοποίηση τιμών για το test_spaces. Λογικά θα είναι διαφορετικά στο κύριως προγράμμα
     test_spaces = {
-        '1': "P1",
-        '2': "P2",
-        '3': "EM",
-        '4': "P3"
+        '1': ["Empty"],
+        '2': ["Platform 1", "YES"],
+        '3': ["Platform 2", "NO"],
+        '4': ["Platform 3", "YES"]
     }
 
     # Ένας ενδεικτικός πίνακας που θα επέστρεφε ο DFS αλγόριθμος
