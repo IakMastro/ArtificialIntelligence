@@ -1,4 +1,4 @@
-from colors import *
+from Parking.colors import *
 
 
 # Μέθοδος που υλοποιείται ο αλγόριθμος DFS σε Python

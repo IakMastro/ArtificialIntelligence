@@ -1,4 +1,4 @@
-from colors import *
+from Parking.colors import *
 
 
 # Συνάρτηση που αντιστρέφει τις ιδιότητες δύο ή περισσοτέρων κομβών.

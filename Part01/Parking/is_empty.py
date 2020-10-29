@@ -1,10 +1,10 @@
-from colors import *
+from Parking.colors import *
 
 
 # Συνάρτηση που βρίσκει την άδεια θέση ενός state. Eάν δεν υπάρχει, στέλνει None.
 def is_empty(spaces):
-    for i in range(1, len(spaces)):
-        if spaces[str(i)][0][:1] == 'E' or spaces[str(i)][1] == "YES":
+    for i in range(1, len(spaces) + 1):
+        if spaces[str(i)][0][:1] == 'E' or spaces[str(i)][1] != "NO":
             continue
 
         return str(i)
