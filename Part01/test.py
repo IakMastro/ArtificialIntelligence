@@ -30,7 +30,9 @@ if __name__ == '__main__':
             query = line.split(" ")
 
             if query[0].strip() == 'help':
-                print("HELP I NEED ANYBODY HELP NOT JUST ANYBODY HELP I JUST NEED SOMEONE HEEEEEEEEEEEEEELP")
+                print(GREEN + "fill car_name" + BLUE + "\nFills the car in a platform. If there isn't ", end='')
+                print("any free platform then shows a fail message")
+                print(GREEN + "exit" + BLUE + "\nExits the program.")
 
             elif query[0] == "fill":
                 goal = is_empty(spaces)
