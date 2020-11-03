@@ -18,34 +18,27 @@ if __name__ == '__main__':
     print(GREEN + "Start of DFS Test" + DEFAULT)
 
     test_graph = {
-        '1': set(['2', '4']),
-        '2': set(['1', '3']),
-        '3': set(['2', '4']),
-        '4': set(['1', '3'])
+        '1': set(['2', '3']),
+        '2': set(['1', '4', '5']),
+        '3': set(['1']),
+        '4': set(['2', '5']),
+        '5': set(['2', '4'])
     }
 
     print(BLUE + f"Starting point: {test_graph}" + DEFAULT)
 
-    # Κάνουμε με 4 διαφορετικούς για να δούμε όλους τους πιθανούς συνδιασμούς για να φτάσουμε στο 3.
-    for i in range(1, 5):
+    # Κάνουμε με 5 διαφορετικούς για να δούμε όλους τους πιθανούς συνδιασμούς για να φτάσουμε στο 5.
+    for i in range(1, 6):
         # Το dfs απο μόνο του επιστρέφει generator, εμείς το μετατρέπουμε σε λίστα. Θα πάρουμε την μόρφη [[...],...]
-        visited = list(dfs(test_graph, str(i), '3'))
+        visited = list(dfs(test_graph, str(i), '5'))
         print(BLUE + f"{i}) Visited: {visited}" + DEFAULT)
 
-        # Εδώ κοιτάμε τι μας έχει επιστρέψει το DFS. Εάν το μέγεθος είναι ίσο με το 1, απλώς πέρνουμε αυτό και το
-        # μετατρέπουμε σε μονοδιάστατη λίστα, από δυσδιάστατη
-        if len(visited) == 1:
-            visited = visited[0]
-
-        # Εδώ κοιτάμε πια λίστα θα έχει παραπάνω steps και κρατάμε αυτήν που έχει λιγότερα. Εάν έχουν το ίδιο κρατάμε
-        # την δεύτερη τυχαία.
-        elif len(visited[0]) >= len(visited[1]):
-            visited = visited[1]
+        if len(visited) != 0:
+            visited = min(visited, key=len)
+            print(BLUE + f"Fastest path: {visited}" + DEFAULT)
 
         else:
-            visited = visited[0]
-
-        print(BLUE + f"Fastest path: {visited}" + DEFAULT)
+            print(BLUE + "There is no path" + DEFAULT)
 
     print(GREEN + "Test was successful" + DEFAULT)
 
