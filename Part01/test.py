@@ -1,6 +1,7 @@
 from Parking.DFS import dfs
 from Parking.swap import swap
 from Parking.is_empty import is_empty
+from Parking.BFS import bfs
 from Parking.colors import *
 
 if __name__ == '__main__':
@@ -37,12 +38,14 @@ if __name__ == '__main__':
                     print(RED + f"No space for {query[1].strip()}" + DEFAULT)
 
                 else:
-                    visited = min(list(dfs(neighbours, '1', goal)), key=len)
+                    dfs_visited = min(list(dfs(neighbours, '1', goal)), key=len)
+                    bfs_visited = min(list(bfs(neighbours, '1', goal)), key=len)
+                    visited = min(dfs_visited, bfs_visited, key=len)
                     swap(spaces, visited)
                     spaces['1'][1] = query[1].strip()
                     print(BLUE + f"Filled {spaces['1'][0]} with a" + GREEN + f" {spaces['1'][1]}" + DEFAULT)
 
-            elif query[0] == 'exit':
+            elif query[0].split()[0] == 'exit':
                 print(BLUE + "Exiting..." + DEFAULT)
                 break
 
