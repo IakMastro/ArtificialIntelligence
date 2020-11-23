@@ -2,9 +2,9 @@ from Parking.colors import *
 
 
 # Συνάρτηση που βρίσκει την άδεια θέση ενός state. Eάν δεν υπάρχει, στέλνει None.
-def is_empty(spaces):
+def is_empty(spaces, goal_state):
     for i in range(1, len(spaces) + 1):
-        if spaces[str(i)][0][:1] == 'E' or spaces[str(i)][1] != "NO":
+        if spaces[str(i)][0][:1] == 'E' or spaces[str(i)][1] != "NO" or goal_state[spaces[str(i)][0]] == "NO":
             continue
 
         return str(i)
@@ -12,7 +12,7 @@ def is_empty(spaces):
 
 # Επείδηξη λειτουργίας της συνάρτησης is_empty.
 if __name__ == '__main__':
-    print(GREEN + "Start of Swap Test" + DEFAULT)
+    print(GREEN + "Start of is_empty Test" + DEFAULT)
 
     test_spaces = {
         '1': ["Empty"],

@@ -1,10 +1,11 @@
-from Parking.DFS import dfs
-from Parking.swap import swap
-from Parking.is_empty import is_empty
-from Parking.BFS import bfs
+from Parking.find_solution import find_solution
+from Parking.is_goal import is_goal
 from Parking.colors import *
 
 if __name__ == '__main__':
+    print(GREEN + "Start of main program" + DEFAULT)
+
+    # Οι γειτωνικές σχέσεις του γράφου
     neighbours = {
         '1': set(['2', '4']),
         '2': set(['1', '3']),
@@ -14,8 +15,9 @@ if __name__ == '__main__':
         '6': set(['3', '5'])
     }
 
+    # Οι καταστάσεις που βρίσκετε το κάθε node στον γράφο
     spaces = {
-        '1': ["Empty"],
+        '1': ["Empty", "NO"],
         '2': ["Platform 1", "NO"],
         '3': ["Platform 2", "NO"],
         '4': ["Platform 3", "NO"],
@@ -23,31 +25,37 @@ if __name__ == '__main__':
         '6': ["Platform 5", "NO"]
     }
 
+    # Το επιθυμιτό, τελικό αποτέλεσμα
+    goal_state = {
+        "Empty": "NO",
+        "Platform 1": "YES",
+        "Platform 2": "YES",
+        "Platform 3": "YES",
+        "Platform 4": "YES",
+        "Platform 5": "YES"
+    }
+
+    print(GREEN + "INITIAL VALUES")
+    print("NEIGHBOURS: " + BLUE + f"{neighbours}")
+    print(GREEN + "SPACES: " + BLUE + f"{spaces}")
+    print(GREEN + "GOAL STATE: " + BLUE + f"{goal_state}")
+
+    method = input("Choose method you want to use.\nAvailable Methods DFS, BFS, BestFS: " + GREEN)
+
     while True:
-        query = input(BLUE + "Waiting for a query: " + GREEN)
-        query = query.split(" ")
-
-        if query[0].strip() == 'help':
-            print(GREEN + "fill car_name" + BLUE + "\nFills the car in a platform. If there isn't ", end='')
-            print("any free platform then shows a fail message")
-            print(GREEN + "exit" + BLUE + "\nExits the program.")
-
-        elif query[0] == "fill":
-            goal = is_empty(spaces)
-            if goal is None:
-                print(RED + f"No space for {query[1].strip()}" + DEFAULT)
-
-            else:
-                dfs_visited = min(list(dfs(neighbours, '1', goal)), key=len)
-                bfs_visited = min(list(bfs(neighbours, '1', goal)), key=len)
-                visited = min(dfs_visited, bfs_visited, key=len)
-                swap(spaces, visited)
-                spaces['1'][1] = query[1].strip()
-                print(BLUE + f"Filled {spaces['1'][0]} with a" + GREEN + f" {spaces['1'][1]}" + DEFAULT)
-
-        elif query[0] == 'exit':
-            print(BLUE + "Exiting..." + DEFAULT)
+        # Επέστρεψε την νέα μορφή των καταστάσεων του γράφουν.
+        # Εάν εγίνε κάτι λάθος στην πορεία του προγράμματος, επιστρέφει empty και
+        # λήγει το πρόγραμμα.
+        spaces = find_solution(neighbours, spaces, goal_state, method)
+        if spaces is None:
             break
 
-        else:
-            print(RED + "Unexpected command. Try help." + DEFAULT)
+        print(GREEN + "NEW STATE: " + BLUE + f"{spaces}")
+
+        state = dict()
+        for node in spaces:
+            state[spaces[node][0]] = spaces[node][1]
+
+        if is_goal(state, goal_state):
+            print(BLUE + "Found goal state..." + GREEN + "\nExiting" + DEFAULT)
+            break

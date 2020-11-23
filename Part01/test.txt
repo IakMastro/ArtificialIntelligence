@@ -1,8 +1,0 @@
-help
-fill Mazda
-fill Ford
-fill Renault
-fill Delorian
-fill Ferrari
-fill Porche
-exit
