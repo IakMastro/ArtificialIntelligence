@@ -1,7 +1,6 @@
 from Parking.colors import *
 
 
-# Συνάρτηση που βλέπει κάθε node του state και το συγκρίνει με το παρόμοιο του.
 def is_goal(state, goal_state):
     for node in state:
         if state[node] != goal_state[node]:

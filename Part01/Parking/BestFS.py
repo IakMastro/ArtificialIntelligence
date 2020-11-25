@@ -1,7 +1,6 @@
 from Parking.colors import *
 
 
-# Συνάρτηση υλοποίησης του αλγορίθμου BestFS βασισμένος στον BFS.
 def best_fs(graph, node, goal):
     queue = [(node, [node])]
 
@@ -29,9 +28,7 @@ if __name__ == '__main__':
 
     print(BLUE + f"Starting point: {test_graph}" + DEFAULT)
 
-    # Κάνουμε με 5 διαφορετικούς για να δούμε όλους τους πιθανούς συνδιασμούς για να φτάσουμε στο 5.
     for i in range(1, 6):
-        # Το BestFS απο μόνο του επιστρέφει generator, εμείς το μετατρέπουμε σε λίστα. Θα πάρουμε την μόρφη [[...],...]
         visited = list(best_fs(test_graph, str(i), '5'))
         print(BLUE + f"{i}) Visited: {visited}" + DEFAULT)
 

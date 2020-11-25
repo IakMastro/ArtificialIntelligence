@@ -7,15 +7,11 @@ from Parking.swap import *
 
 
 def find_solution(neighbour_graph, space_graph, goal_state, method):
-    # Πρώτα θα βρούμε σε ποια θέση βρίσκεται το πρώτο node, όπου έχει empty πλατφόρμα
     goal = is_empty(space_graph, goal_state)
     if goal is None:
         print(RED + "NO SOLUTION COULD BE FOUND" + DEFAULT)
         return None
 
-    # Αναλόγως με την μέθοδο που έχουμε επιλέξει στην αρχή του προγράμματος,
-    # θα πάρουμε και ένα διαφορετικό αποτέλεσμα. Κάθε αλγόριθμος επιστρέφει και διαφορετικό
-    # πίνακα. Επειδή επιστρέφουν generator, εμείς το μετατρέπουμε σε λίστα.
     visited = []
     if method == "DFS":
         visited = list(dfs(neighbour_graph, '1', goal))
@@ -30,8 +26,6 @@ def find_solution(neighbour_graph, space_graph, goal_state, method):
         print(RED + "METHOD NOT FOUND" + DEFAULT)
         return None
 
-    # Από το Front, επιλέγει την πιο γρήγορη διαδρόμη, και στην συνέχεια κάνει την συνάρτηση swap για να
-    # ανταλλάξει τα nodes μεταξύ τους και να φέρει το node με την άδεια πλατφόρμα στην θέση 1 του γράφου.
     print(GREEN + "FRONT: " + BLUE + f"{visited}")
     visited = min(visited, key=len)
     print(GREEN + "FASTEST SOLUTION: " + BLUE + f"{visited}")

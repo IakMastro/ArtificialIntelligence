@@ -1,7 +1,6 @@
 from Parking.colors import *
 
 
-# Συνάρτηση που βρίσκει την άδεια θέση ενός state. Eάν δεν υπάρχει, στέλνει None.
 def is_empty(spaces, goal_state):
     for i in range(1, len(spaces) + 1):
         if spaces[str(i)][0][:1] == 'E' or spaces[str(i)][1] != "NO" or goal_state[spaces[str(i)][0]] == "NO":
@@ -10,7 +9,6 @@ def is_empty(spaces, goal_state):
         return str(i)
 
 
-# Επείδηξη λειτουργίας της συνάρτησης is_empty.
 if __name__ == '__main__':
     print(GREEN + "Start of is_empty Test" + DEFAULT)
 
@@ -21,6 +19,13 @@ if __name__ == '__main__':
         '4': ["Platform 3", "YES"]
     }
 
-    print(BLUE + f"Output: {is_empty(test_spaces)}" + DEFAULT)
+    test_goal_state = {
+        "Empty": "NO",
+        "Platform 1": "YES",
+        "Platform 2": "YES",
+        "Platform 3": "YES"
+    }
+
+    print(BLUE + f"Output: {is_empty(test_spaces, test_goal_state)}" + DEFAULT)
 
     print(GREEN + "Test was successful" + DEFAULT)

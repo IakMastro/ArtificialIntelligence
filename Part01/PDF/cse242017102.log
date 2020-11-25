@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2020.11.22)  23 NOV 2020 12:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2020.11.22)  24 NOV 2020 16:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -105,34 +105,26 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
-) (/usr/share/texmf-dist/tex/latex/listings/listings.sty (/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks20
-)
-\lst@mode=\count181
-\lst@gtempboxa=\box45
-\lst@token=\toks21
-\lst@length=\count182
-\lst@currlwidth=\dimen136
-\lst@column=\count183
-\lst@pos=\count184
-\lst@lostspace=\dimen137
-\lst@width=\dimen138
-\lst@newlines=\count185
-\lst@lineno=\count186
-\lst@maxwidth=\dimen139
- (/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count187
-\lst@skipnumbers=\count188
-\lst@framebox=\box46
-) (/usr/share/texmf-dist/tex/latex/listings/listings.cfg
-File: listings.cfg 2020/03/24 1.8d listings configuration
+) (/usr/share/texmf-dist/tex/latex/forest/forest.sty
+Package: forest 2017/07/14 v2.1.5 Drawing (linguistic) trees
+ (/usr/share/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks20
+\pgfutil@tempdima=\dimen136
+\pgfutil@tempdimb=\dimen137
+ (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex)) (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box45
+ (/usr/share/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+)) (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/usr/share/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2020/01/08 v3.1.5b (3.1.5b)
 ))
-Package: listings 2020/03/24 1.8d (Carsten Heinz)
- (/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: pgf 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
- (/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
+ (/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks21
+) (/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
  (/usr/share/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
@@ -143,50 +135,36 @@ Package graphics Info: Driver file: pdftex.def on input line 105.
  (/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen140
-\Gin@req@width=\dimen141
-) (/usr/share/texmf-dist/tex/latex/forest/forest.sty
-Package: forest 2017/07/14 v2.1.5 Drawing (linguistic) trees
- (/usr/share/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks22
-\pgfutil@tempdima=\dimen142
-\pgfutil@tempdimb=\dimen143
- (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex)) (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box47
- (/usr/share/texmf-dist/tex/latex/ms/everyshi.sty
-Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
-)) (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/usr/share/texmf-dist/tex/generic/pgf/pgf.revision.tex)
-Package: pgfrcs 2020/01/08 v3.1.5b (3.1.5b)
-))
-Package: pgf 2020/01/08 v3.1.5b (3.1.5b)
- (/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/usr/share/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+\Gin@req@height=\dimen138
+\Gin@req@width=\dimen139
+) (/usr/share/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2020/01/08 v3.1.5b (3.1.5b)
  (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks23
-\pgfkeys@temptoks=\toks24
+\pgfkeys@pathtoks=\toks22
+\pgfkeys@temptoks=\toks23
  (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
-\pgfkeys@tmptoks=\toks25
+\pgfkeys@tmptoks=\toks24
 ))
-\pgf@x=\dimen144
-\pgf@y=\dimen145
-\pgf@xa=\dimen146
-\pgf@ya=\dimen147
-\pgf@xb=\dimen148
-\pgf@yb=\dimen149
-\pgf@xc=\dimen150
-\pgf@yc=\dimen151
-\pgf@xd=\dimen152
-\pgf@yd=\dimen153
+\pgf@x=\dimen140
+\pgf@y=\dimen141
+\pgf@xa=\dimen142
+\pgf@ya=\dimen143
+\pgf@xb=\dimen144
+\pgf@yb=\dimen145
+\pgf@xc=\dimen146
+\pgf@yc=\dimen147
+\pgf@xd=\dimen148
+\pgf@yd=\dimen149
 \w@pgf@writea=\write3
 \r@pgf@reada=\read3
-\c@pgf@counta=\count189
-\c@pgf@countb=\count190
-\c@pgf@countc=\count191
-\c@pgf@countd=\count192
-\t@pgf@toka=\toks26
-\t@pgf@tokb=\toks27
-\t@pgf@tokc=\toks28
-\pgf@sys@id@count=\count193
+\c@pgf@counta=\count181
+\c@pgf@countb=\count182
+\c@pgf@countc=\count183
+\c@pgf@countd=\count184
+\t@pgf@toka=\toks25
+\t@pgf@tokb=\toks26
+\t@pgf@tokc=\toks27
+\pgf@sys@id@count=\count185
  (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2020/01/08 v3.1.5b (3.1.5b)
 )
@@ -197,8 +175,8 @@ File: pgfsys-pdftex.def 2020/01/08 v3.1.5b (3.1.5b)
 File: pgfsys-common-pdf.def 2020/01/08 v3.1.5b (3.1.5b)
 ))) (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfsyssoftpath@smallbuffer@items=\count194
-\pgfsyssoftpath@bigbuffer@items=\count195
+\pgfsyssoftpath@smallbuffer@items=\count186
+\pgfsyssoftpath@bigbuffer@items=\count187
 ) (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )) (/usr/share/texmf-dist/tex/latex/xcolor/xcolor.sty
@@ -219,52 +197,52 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 ) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
 Package: pgfcore 2020/01/08 v3.1.5b (3.1.5b)
  (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen154
-\pgfmath@count=\count196
-\pgfmath@box=\box48
-\pgfmath@toks=\toks29
-\pgfmath@stack@operand=\toks30
-\pgfmath@stack@operation=\toks31
+\pgfmath@dimen=\dimen150
+\pgfmath@count=\count188
+\pgfmath@box=\box46
+\pgfmath@toks=\toks28
+\pgfmath@stack@operand=\toks29
+\pgfmath@stack@operation=\toks30
 ) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex))) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count197
+\c@pgfmathroundto@lastzeros=\count189
 )) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@picminx=\dimen155
-\pgf@picmaxx=\dimen156
-\pgf@picminy=\dimen157
-\pgf@picmaxy=\dimen158
-\pgf@pathminx=\dimen159
-\pgf@pathmaxx=\dimen160
-\pgf@pathminy=\dimen161
-\pgf@pathmaxy=\dimen162
-\pgf@xx=\dimen163
-\pgf@xy=\dimen164
-\pgf@yx=\dimen165
-\pgf@yy=\dimen166
-\pgf@zx=\dimen167
-\pgf@zy=\dimen168
+\pgf@picminx=\dimen151
+\pgf@picmaxx=\dimen152
+\pgf@picminy=\dimen153
+\pgf@picmaxy=\dimen154
+\pgf@pathminx=\dimen155
+\pgf@pathmaxx=\dimen156
+\pgf@pathminy=\dimen157
+\pgf@pathmaxy=\dimen158
+\pgf@xx=\dimen159
+\pgf@xy=\dimen160
+\pgf@yx=\dimen161
+\pgf@yy=\dimen162
+\pgf@zx=\dimen163
+\pgf@zy=\dimen164
 ) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@path@lastx=\dimen169
-\pgf@path@lasty=\dimen170
+\pgf@path@lastx=\dimen165
+\pgf@path@lasty=\dimen166
 ) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@shorten@end@additional=\dimen171
-\pgf@shorten@start@additional=\dimen172
+\pgf@shorten@end@additional=\dimen167
+\pgf@shorten@start@additional=\dimen168
 ) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfpic=\box49
-\pgf@hbox=\box50
-\pgf@layerbox@main=\box51
-\pgf@picture@serial@count=\count198
+\pgfpic=\box47
+\pgf@hbox=\box48
+\pgf@layerbox@main=\box49
+\pgf@picture@serial@count=\count190
 ) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgflinewidth=\dimen173
+\pgflinewidth=\dimen169
 ) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@pt@x=\dimen174
-\pgf@pt@y=\dimen175
-\pgf@pt@temp=\dimen176
+\pgf@pt@x=\dimen170
+\pgf@pt@y=\dimen171
+\pgf@pt@temp=\dimen172
 ) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 ) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
@@ -273,17 +251,17 @@ File: pgfcoreobjects.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 File: pgfcorepathprocessing.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 ) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfarrowsep=\dimen177
+\pgfarrowsep=\dimen173
 ) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@max=\dimen178
-\pgf@sys@shading@range@num=\count199
-\pgf@shadingcount=\count266
+\pgf@max=\dimen174
+\pgf@sys@shading@range@num=\count191
+\pgf@shadingcount=\count192
 ) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
  (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfexternal@startupbox=\box52
+\pgfexternal@startupbox=\box50
 )) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 ) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
@@ -294,52 +272,52 @@ File: pgfcorepatterns.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 File: pgfcorerdf.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 ))) (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfnodeparttextbox=\box53
+\pgfnodeparttextbox=\box51
 ) (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 ) (/usr/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@nodesepstart=\dimen179
-\pgf@nodesepend=\dimen180
+\pgf@nodesepstart=\dimen175
+\pgf@nodesepend=\dimen176
 ) (/usr/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2020/01/08 v3.1.5b (3.1.5b)
 )) (/usr/share/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/usr/share/texmf-dist/tex/latex/pgf/math/pgfmath.sty (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2020/01/08 v3.1.5b (3.1.5b)
  (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen181
-\pgffor@skip=\dimen182
-\pgffor@stack=\toks32
-\pgffor@toks=\toks33
+\pgffor@iter=\dimen177
+\pgffor@skip=\dimen178
+\pgffor@stack=\toks31
+\pgffor@toks=\toks32
 )) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2020/01/08 v3.1.5b (3.1.5b)
  (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@plot@mark@count=\count267
-\pgfplotmarksize=\dimen183
+\pgf@plot@mark@count=\count193
+\pgfplotmarksize=\dimen179
 )
-\tikz@lastx=\dimen184
-\tikz@lasty=\dimen185
-\tikz@lastxsaved=\dimen186
-\tikz@lastysaved=\dimen187
-\tikz@lastmovetox=\dimen188
-\tikz@lastmovetoy=\dimen189
-\tikzleveldistance=\dimen190
-\tikzsiblingdistance=\dimen191
-\tikz@figbox=\box54
-\tikz@figbox@bg=\box55
-\tikz@tempbox=\box56
-\tikz@tempbox@bg=\box57
-\tikztreelevel=\count268
-\tikznumberofchildren=\count269
-\tikznumberofcurrentchild=\count270
-\tikz@fig@count=\count271
+\tikz@lastx=\dimen180
+\tikz@lasty=\dimen181
+\tikz@lastxsaved=\dimen182
+\tikz@lastysaved=\dimen183
+\tikz@lastmovetox=\dimen184
+\tikz@lastmovetoy=\dimen185
+\tikzleveldistance=\dimen186
+\tikzsiblingdistance=\dimen187
+\tikz@figbox=\box52
+\tikz@figbox@bg=\box53
+\tikz@tempbox=\box54
+\tikz@tempbox@bg=\box55
+\tikztreelevel=\count194
+\tikznumberofchildren=\count195
+\tikznumberofcurrentchild=\count196
+\tikz@fig@count=\count197
  (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfmatrixcurrentrow=\count272
-\pgfmatrixcurrentcolumn=\count273
-\pgf@matrix@numberofcolumns=\count274
+\pgfmatrixcurrentrow=\count198
+\pgfmatrixcurrentcolumn=\count199
+\pgf@matrix@numberofcolumns=\count266
 )
-\tikz@expandcount=\count275
+\tikz@expandcount=\count267
  (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 ))) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.code.tex
@@ -364,39 +342,39 @@ File: pgflibraryshapes.arrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 File: tikzlibraryshapes.multipart.code.tex 2020/01/08 v3.1.5b (3.1.5b)
  (/usr/share/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.multipart.code.tex
 File: pgflibraryshapes.multipart.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfnodepartlowerbox=\box58
-\pgfnodeparttwobox=\box59
-\pgfnodepartthreebox=\box60
-\pgfnodepartfourbox=\box61
-\pgfnodeparttwentybox=\box62
-\pgfnodepartnineteenbox=\box63
-\pgfnodeparteighteenbox=\box64
-\pgfnodepartseventeenbox=\box65
-\pgfnodepartsixteenbox=\box66
-\pgfnodepartfifteenbox=\box67
-\pgfnodepartfourteenbox=\box68
-\pgfnodepartthirteenbox=\box69
-\pgfnodeparttwelvebox=\box70
-\pgfnodepartelevenbox=\box71
-\pgfnodeparttenbox=\box72
-\pgfnodepartninebox=\box73
-\pgfnodeparteightbox=\box74
-\pgfnodepartsevenbox=\box75
-\pgfnodepartsixbox=\box76
-\pgfnodepartfivebox=\box77
+\pgfnodepartlowerbox=\box56
+\pgfnodeparttwobox=\box57
+\pgfnodepartthreebox=\box58
+\pgfnodepartfourbox=\box59
+\pgfnodeparttwentybox=\box60
+\pgfnodepartnineteenbox=\box61
+\pgfnodeparteighteenbox=\box62
+\pgfnodepartseventeenbox=\box63
+\pgfnodepartsixteenbox=\box64
+\pgfnodepartfifteenbox=\box65
+\pgfnodepartfourteenbox=\box66
+\pgfnodepartthirteenbox=\box67
+\pgfnodeparttwelvebox=\box68
+\pgfnodepartelevenbox=\box69
+\pgfnodeparttenbox=\box70
+\pgfnodepartninebox=\box71
+\pgfnodeparteightbox=\box72
+\pgfnodepartsevenbox=\box73
+\pgfnodepartsixbox=\box74
+\pgfnodepartfivebox=\box75
 ))) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryfit.code.tex
 File: tikzlibraryfit.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 ) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex
 File: tikzlibrarycalc.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 ) (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryintersections.code.tex (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex)
-\pgf@intersect@solutions=\count276
+\pgf@intersect@solutions=\count268
 ) (/usr/share/texmf-dist/tex/latex/pgfopts/pgfopts.sty
 Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
-\pgfopts@list@add@a@toks=\toks34
-\pgfopts@list@add@b@toks=\toks35
+\pgfopts@list@add@a@toks=\toks33
+\pgfopts@list@add@b@toks=\toks34
 ) (/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count277
+\etb@tempcnta=\count269
 ) (/usr/share/texmf-dist/tex/latex/elocalloc/elocalloc.sty
 Package: elocalloc 2016/12/15 v0.03 local allocation for LaTeX 2015+ (DPC)
 ) (/usr/share/texmf-dist/tex/latex/environ/environ.sty
@@ -404,93 +382,118 @@ Package: environ 2014/05/04 v0.3 A new way to define environments
  (/usr/share/texmf-dist/tex/latex/trimspaces/trimspaces.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 )
-\@envbody=\toks36
+\@envbody=\toks35
 ) (/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty (/usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2020-06-03 L3 programming layer (loader) 
  (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-06-03 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count278
-\l__pdf_internal_box=\box78
+\l__kernel_color_stack_int=\count270
+\l__pdf_internal_box=\box76
 ))
 Package: xparse 2020-05-15 L3 Experimental document command parser
  (/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.tex
-\l__xparse_current_arg_int=\count279
-\g__xparse_grabber_int=\count280
-\l__xparse_m_args_int=\count281
-\l__xparse_v_nesting_int=\count282
+\l__xparse_current_arg_int=\count271
+\g__xparse_grabber_int=\count272
+\l__xparse_m_args_int=\count273
+\l__xparse_v_nesting_int=\count274
 )) (/usr/share/texmf-dist/tex/latex/inlinedef/inlinedef.sty
 Package: inlinedef 2008/07/10 v1.0 Inlined expansions within definitions
-\ID@toks=\toks37
-\ID@count=\count283
+\ID@toks=\toks36
+\ID@count=\count275
 )
-\ID@usercommands=\toks38
-\safeloop@depth=\count284
-\safeRKloop@depth=\count285
-\forest@temp@dimen=\dimen192
-\forest@temp@count=\count286
-\forest@n=\count287
-\forest@temp@global@count=\count288
-\forest@temp@toks=\toks39
-\forest@temparray@M=\count289
-\forest@temparray@N=\count290
-\forest@global@temparray@M=\count291
-\forest@global@temparray@N=\count292
-\forest@isnum@count=\count293
-\forest@isdim@nonintpart=\count294
-\forest@isdim@dimen=\dimen193
-\forest@sort@m=\count295
-\forest@sort@k=\count296
-\forest@sort@p=\count297
-\bracket@content=\toks40
-\bracket@afterthought=\toks41
-\forest@node@maxid=\count298
-\forest@process@left@M=\count299
-\forest@process@left@N=\count300
-\forest@process@right@M=\count301
-\forest@process@right@N=\count302
-\forest@process@saved@M=\count303
-\forest@process@saved@N=\count304
-\forest@process@result@M=\count305
-\forest@process@result@N=\count306
-\forest@process@n=\count307
-\forest@nodewalk@branch@toks=\toks42
-\forest@nodewalk@shortsteps@resolution=\toks43
-\forest@do@dynamics=\toks44
-\forest@box=\box79
-\forest@xg=\dimen194
-\forest@yg=\dimen195
-\forest@xs=\dimen196
-\forest@ys=\dimen197
-\forest@pi@toks=\toks45
-\forest@segment@toks=\toks46
-\forest@PIi@toks=\toks47
-\forest@PIii@toks=\toks48
+\ID@usercommands=\toks37
+\safeloop@depth=\count276
+\safeRKloop@depth=\count277
+\forest@temp@dimen=\dimen188
+\forest@temp@count=\count278
+\forest@n=\count279
+\forest@temp@global@count=\count280
+\forest@temp@toks=\toks38
+\forest@temparray@M=\count281
+\forest@temparray@N=\count282
+\forest@global@temparray@M=\count283
+\forest@global@temparray@N=\count284
+\forest@isnum@count=\count285
+\forest@isdim@nonintpart=\count286
+\forest@isdim@dimen=\dimen189
+\forest@sort@m=\count287
+\forest@sort@k=\count288
+\forest@sort@p=\count289
+\bracket@content=\toks39
+\bracket@afterthought=\toks40
+\forest@node@maxid=\count290
+\forest@process@left@M=\count291
+\forest@process@left@N=\count292
+\forest@process@right@M=\count293
+\forest@process@right@N=\count294
+\forest@process@saved@M=\count295
+\forest@process@saved@N=\count296
+\forest@process@result@M=\count297
+\forest@process@result@N=\count298
+\forest@process@n=\count299
+\forest@nodewalk@branch@toks=\toks41
+\forest@nodewalk@shortsteps@resolution=\toks42
+\forest@do@dynamics=\toks43
+\forest@box=\box77
+\forest@xg=\dimen190
+\forest@yg=\dimen191
+\forest@xs=\dimen192
+\forest@ys=\dimen193
+\forest@pi@toks=\toks44
+\forest@segment@toks=\toks45
+\forest@PIi@toks=\toks46
+\forest@PIii@toks=\toks47
 \forest@copy@in=\read4
 \forest@copy@out=\write4
-\forest@externalize@max@outer@n=\count308
-\forest@externalize@inner@n=\count309
-) (/home/iakmastro/Classes/ArtificialIntelligence/Part01/PDF/cse242017102.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 47.
-LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 47.
+\forest@externalize@max@outer@n=\count300
+\forest@externalize@inner@n=\count301
+) (/usr/share/texmf-dist/tex/latex/forest/forest-lib-linguistics.sty
+Package: forest-lib-linguistics 2017/07/14 v0.1.2
+\standardnodestrutbox=\box78
+) (/usr/share/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count302
+\lst@gtempboxa=\box79
+\lst@token=\toks48
+\lst@length=\count303
+\lst@currlwidth=\dimen194
+\lst@column=\count304
+\lst@pos=\count305
+\lst@lostspace=\dimen195
+\lst@width=\dimen196
+\lst@newlines=\count306
+\lst@lineno=\count307
+\lst@maxwidth=\dimen197
+ (/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count308
+\lst@skipnumbers=\count309
+\lst@framebox=\box80
+) (/usr/share/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+ (/home/iakmastro/Classes/ArtificialIntelligence/Part01/PDF/cse242017102.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 49.
+LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 49.
  (/usr/share/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
 File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 47.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 49.
  (/usr/share/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) (/usr/share/texmf-dist/tex/latex/ucs/ucsencs.def
@@ -575,55 +578,55 @@ fontencoding LGR patched
 )
 
 Package utf8x.def Warning: Character(s)159 etc.gotredefinedsomewhere.
-(utf8x.def)                Restoringtoitsutf8x-meaning on input line 47.
+(utf8x.def)                Restoringtoitsutf8x-meaning on input line 49.
 
 (/usr/share/texmf-dist/tex/latex/greek-fontenc/alphabeta-lgr.def
 File: alphabeta-lgr 2014/09/04 0.11.2 Composite definitions for 8-bit TeX
-)
-\c@lstlisting=\count310
- (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+) ABD: EveryShipout initializing macros (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count311
+\scratchcounter=\count310
 \scratchdimen=\dimen198
-\scratchbox=\box80
-\nofMPsegments=\count312
-\nofMParguments=\count313
+\scratchbox=\box81
+\nofMPsegments=\count311
+\nofMParguments=\count312
 \everyMPshowfont=\toks49
-\MPscratchCnt=\count314
+\MPscratchCnt=\count313
 \MPscratchDim=\dimen199
-\MPnumerator=\count315
-\makeMPintoPDFobject=\count316
+\MPnumerator=\count314
+\makeMPintoPDFobject=\count315
 \everyMPtoPDFconversion=\toks50
 ) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
-)) ABD: EveryShipout initializing macros (/usr/share/texmf-dist/tex/latex/ucs/data/uni-3.def
+))
+\c@lstlisting=\count316
+ (/usr/share/texmf-dist/tex/latex/ucs/data/uni-3.def
 File: uni-3.def 2013/05/13 UCS: Unicode data U+0300..U+03FF
 )
-LaTeX Font Info:    Trying to load font information for LGR+lmr on input line 49.
+LaTeX Font Info:    Trying to load font information for LGR+lmr on input line 51.
  (/usr/share/texmf-dist/tex/latex/cbfonts-fd/lgrlmr.fd
 File: lgrlmr.fd 2017/07/29 v1.2 Scalable Greek Latin Modern Regular
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 49.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 51.
  (/usr/share/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 49.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 51.
  (/usr/share/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 49.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 51.
  (/usr/share/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 49.
+(Font)              <12> on input line 51.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 49.
+(Font)              <8> on input line 51.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 49.
+(Font)              <6> on input line 51.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (/home/iakmastro/Classes/ArtificialIntelligence/Part01/PDF/cse242017102.toc
@@ -638,43 +641,141 @@ LaTeX Font Info:    External font `lmex10' loaded for size
  [2] (/home/iakmastro/Classes/ArtificialIntelligence/Part01/PDF/cse242017102.lol)
 \tf@lol=\write6
  [3]
-Overfull \hbox (6.9762pt too wide) in paragraph at lines 61--66
+Overfull \hbox (6.9762pt too wide) in paragraph at lines 63--68
 \LGR/lmr/m/n/10 sto shme[]io thc ulopo[]ihshc tou kwdik[]a\OT1/lmr/m/n/10 , \LGR/lmr/m/n/10 pr[]wta pr[]epei na ex-hghjo[]un merik[]a pragm[]ata
  []
 
 [1]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 79.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 81.
  (/usr/share/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Overfull \hbox (4.76047pt too wide) in paragraph at lines 82--83
+Overfull \hbox (4.76047pt too wide) in paragraph at lines 84--85
 []\LGR/lmr/m/n/10 T[]eloc na []eqei k[]apoion st[]oqo pou []otan ton ek-plhr[]wsei na l[]hgei to pr[]ogramma 
  []
 
 [2]
-Overfull \hbox (16.61404pt too wide) in paragraph at lines 100--102
+Overfull \hbox (16.61404pt too wide) in paragraph at lines 102--104
  [] \LGR/lmr/m/n/10 Den up[]arqei k[]apoia sug-kekrim[]enh telik[]h kat[]astash gia to sug-kekrim[]eno pr[]oblhma\OT1/lmr/m/n/10 .
  []
 
 
-Overfull \hbox (8.39252pt too wide) in paragraph at lines 100--102
+Overfull \hbox (8.39252pt too wide) in paragraph at lines 102--104
 \LGR/lmr/m/n/10 Om[]wc\OT1/lmr/m/n/10 , \LGR/lmr/m/n/10 eme[]ic mporo[]ume na jewr[]hsoume wc telik[]h kat[]astash []otan []olec oi platf[]ormec
  []
 
-[3] (/home/iakmastro/Classes/ArtificialIntelligence/Part01/PDF/cse242017102.aux) ) 
+[3] (/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 126.
+ (/usr/share/texmf-dist/tex/latex/lm/ot1lmtt.fd
+File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+) [4]
+Overfull \hbox (118.19318pt too wide) in paragraph at lines 165--174
+ [] 
+ []
+
+(/home/iakmastro/Classes/ArtificialIntelligence/Part01/PDF/../Parking/is_empty.py) [5]
+<images/is_empty.jpeg, id=44, 133.24782pt x 61.73062pt>
+File: images/is_empty.jpeg Graphic file (type jpg)
+<use images/is_empty.jpeg>
+Package pdftex.def Info: images/is_empty.jpeg  used on input line 194.
+(pdftex.def)             Requested size: 133.24748pt x 61.73045pt.
+ (/home/iakmastro/Classes/ArtificialIntelligence/Part01/PDF/../Parking/is_goal.py [6 </home/iakmastro/Classes/ArtificialIntelligence/Part01/PDF/images/is_empty.jpeg>])
+<images/is_goal.jpeg, id=48, 237.88875pt x 71.51718pt>
+File: images/is_goal.jpeg Graphic file (type jpg)
+<use images/is_goal.jpeg>
+Package pdftex.def Info: images/is_goal.jpeg  used on input line 211.
+(pdftex.def)             Requested size: 237.88815pt x 71.517pt.
+
+Overfull \hbox (11.91727pt too wide) in paragraph at lines 217--218
+\LGR/lmr/m/n/10 H kwdikopoi[]hsh dus-tuq[]wc den []eqei xe-qwr[]istouc telest[]ec met[]abashc\OT1/lmr/m/n/10 , []\LGR/lmr/m/n/10 ola br[]iskontai
+ []
+
+[7 </home/iakmastro/Classes/ArtificialIntelligence/Part01/PDF/images/is_goal.jpeg>] (/home/iakmastro/Classes/ArtificialIntelligence/Part01/PDF/../Parking/find_solution.py [8]) [9] (/home/iakmastro/Classes/ArtificialIntelligence/Part01/PDF/../Parking/swap.py)
+<images/swap.jpeg, id=58, 575.90157pt x 70.76437pt>
+File: images/swap.jpeg Graphic file (type jpg)
+<use images/swap.jpeg>
+Package pdftex.def Info: images/swap.jpeg  used on input line 234.
+(pdftex.def)             Requested size: 403.12834pt x 49.53471pt.
+
+Overfull \hbox (73.12834pt too wide) in paragraph at lines 234--235
+[][] 
+ []
+
+<images/find_solution.jpeg, id=59, 849.1725pt x 91.84312pt>
+File: images/find_solution.jpeg Graphic file (type jpg)
+<use images/find_solution.jpeg>
+Package pdftex.def Info: images/find_solution.jpeg  used on input line 239.
+(pdftex.def)             Requested size: 424.5852pt x 45.92143pt.
+
+Overfull \hbox (94.5852pt too wide) in paragraph at lines 239--240
+[][] 
+ []
+
+[10 </home/iakmastro/Classes/ArtificialIntelligence/Part01/PDF/images/swap.jpeg> </home/iakmastro/Classes/ArtificialIntelligence/Part01/PDF/images/find_solution.jpeg>] (/home/iakmastro/Classes/ArtificialIntelligence/Part01/PDF/../Parking/DFS.py) [11]
+<images/DFS.jpeg, id=67, 280.04625pt x 18.82031pt>
+File: images/DFS.jpeg Graphic file (type jpg)
+<use images/DFS.jpeg>
+Package pdftex.def Info: images/DFS.jpeg  used on input line 280.
+(pdftex.def)             Requested size: 280.04555pt x 18.82025pt.
+ [12 </home/iakmastro/Classes/ArtificialIntelligence/Part01/PDF/images/DFS.jpeg>] (/home/iakmastro/Classes/ArtificialIntelligence/Part01/PDF/../Parking/BFS.py) [13]
+<images/BFS.jpeg, id=74, 276.28218pt x 18.82031pt>
+File: images/BFS.jpeg Graphic file (type jpg)
+<use images/BFS.jpeg>
+Package pdftex.def Info: images/BFS.jpeg  used on input line 309.
+(pdftex.def)             Requested size: 276.2815pt x 18.82025pt.
+ [14 </home/iakmastro/Classes/ArtificialIntelligence/Part01/PDF/images/BFS.jpeg>] (/home/iakmastro/Classes/ArtificialIntelligence/Part01/PDF/../Parking/BestFS.py) [15]
+File: images/BFS.jpeg Graphic file (type jpg)
+<use images/BFS.jpeg>
+Package pdftex.def Info: images/BFS.jpeg  used on input line 334.
+(pdftex.def)             Requested size: 276.2815pt x 18.82025pt.
+ [16] (/home/iakmastro/Classes/ArtificialIntelligence/Part01/PDF/../main.py [17])
+<images/main_dfs.jpeg, id=88, 922.19531pt x 433.62pt>
+File: images/main_dfs.jpeg Graphic file (type jpg)
+<use images/main_dfs.jpeg>
+Package pdftex.def Info: images/main_dfs.jpeg  used on input line 346.
+(pdftex.def)             Requested size: 461.09653pt x 216.80946pt.
+
+Overfull \hbox (131.09653pt too wide) in paragraph at lines 346--347
+[][] 
+ []
+
+<images/main_bfs.jpeg, id=89, 919.93687pt x 434.37282pt>
+File: images/main_bfs.jpeg Graphic file (type jpg)
+<use images/main_bfs.jpeg>
+Package pdftex.def Info: images/main_bfs.jpeg  used on input line 348.
+(pdftex.def)             Requested size: 459.96732pt x 217.18587pt.
+
+Overfull \hbox (129.96732pt too wide) in paragraph at lines 348--349
+[][] 
+ []
+
+[18 </home/iakmastro/Classes/ArtificialIntelligence/Part01/PDF/images/main_dfs.jpeg> </home/iakmastro/Classes/ArtificialIntelligence/Part01/PDF/images/main_bfs.jpeg>]
+<images/main_bestFS.png, id=93, 917.67844pt x 428.35031pt>
+File: images/main_bestFS.png Graphic file (type png)
+<use images/main_bestFS.png>
+Package pdftex.def Info: images/main_bestFS.png  used on input line 351.
+(pdftex.def)             Requested size: 458.83809pt x 214.17462pt.
+
+Overfull \hbox (128.83809pt too wide) in paragraph at lines 351--352
+[][] 
+ []
+
+[19 </home/iakmastro/Classes/ArtificialIntelligence/Part01/PDF/images/main_bestFS.png (PNG copy)>] (/home/iakmastro/Classes/ArtificialIntelligence/Part01/PDF/cse242017102.aux) ) 
 Here is how much of TeX's memory you used:
- 26201 strings out of 480478
- 609004 string characters out of 5905958
- 853804 words of memory out of 5000000
- 41844 multiletter control sequences out of 15000+600000
- 573431 words of font info for 55 fonts, out of 8000000 for 9000
+ 27687 strings out of 480478
+ 632900 string characters out of 5905958
+ 1261327 words of memory out of 5000000
+ 43283 multiletter control sequences out of 15000+600000
+ 574055 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 67i,7n,71p,1646b,408s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}</usr/share/texmf-dist/fonts/type1/public/cbfonts/grmn1000.pfb></usr/share/texmf-dist/fonts/type1/public/cbfonts/grmn1200.pfb></usr/share/texmf-dist/fonts/type1/public/cbfonts/grmn1728.pfb></usr/share/texmf-dist/fonts/type1/public/cbfonts/grxn1000.pfb></usr/share/texmf-dist/fonts/type1/public/cbfonts/grxn1200.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr17.pfb>
-Output written on /home/iakmastro/Classes/ArtificialIntelligence/Part01/PDF/cse242017102.pdf (6 pages, 182796 bytes).
+ 133i,9n,160p,1646b,1753s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}</usr/share/texmf-dist/fonts/type1/public/cbfonts/grmn1000.pfb></usr/share/texmf-dist/fonts/type1/public/cbfonts/grmn1200.pfb></usr/share/texmf-dist/fonts/type1/public/cbfonts/grmn1728.pfb></usr/share/texmf-dist/fonts/type1/public/cbfonts/grxn1000.pfb></usr/share/texmf-dist/fonts/type1/public/cbfonts/grxn1200.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr5.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmtt8.pfb>
+Output written on /home/iakmastro/Classes/ArtificialIntelligence/Part01/PDF/cse242017102.pdf (22 pages, 578536 bytes).
 PDF statistics:
- 70 PDF objects out of 1000 (max. 8388607)
- 51 compressed objects within 1 object stream
+ 140 PDF objects out of 1000 (max. 8388607)
+ 94 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 58 words of extra memory for PDF output out of 10000 (max. 10000000)
 

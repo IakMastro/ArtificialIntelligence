@@ -1,7 +1,6 @@
 from Parking.colors import *
 
 
-# Μέθοδος που υλοποιείται ο αλγόριθμος BFS σε Python
 def bfs(graph, node, goal):
     queue = [(node, [node])]
 
@@ -16,7 +15,6 @@ def bfs(graph, node, goal):
                 queue.append((next, path + [next]))
 
 
-# Επείδηξη λειτουργίας του BFS αλγορίθμου
 if __name__ == '__main__':
     print(GREEN + "Start of BFS Test" + DEFAULT)
 
@@ -30,9 +28,7 @@ if __name__ == '__main__':
 
     print(BLUE + f"Starting point: {test_graph}" + DEFAULT)
 
-    # Κάνουμε με 5 διαφορετικούς για να δούμε όλους τους πιθανούς συνδιασμούς για να φτάσουμε στο 5.
     for i in range(1, 6):
-        # Το bfs απο μόνο του επιστρέφει generator, εμείς το μετατρέπουμε σε λίστα. Θα πάρουμε την μόρφη [[...],...]
         visited = list(bfs(test_graph, str(i), '5'))
         print(BLUE + f"{i}) Visited: {visited}" + DEFAULT)
 
@@ -44,8 +40,3 @@ if __name__ == '__main__':
             print(BLUE + "There is no path" + DEFAULT)
 
     print(GREEN + "Test was successful" + DEFAULT)
-
-    '''
-    Η λειτουργία του BFS είναι πολύ παρόμοια απο αυτή του BFS. Στο δικό μας παράδειγμα, δεν υπάρχει καμία διαφορά
-    εκτός άμα το goal είναι το αρχικό node. Εκεί δεν μας επιστρέφει path, αφού δεν υπάρχει.
-    '''

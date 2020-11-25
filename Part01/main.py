@@ -5,7 +5,6 @@ from Parking.colors import *
 if __name__ == '__main__':
     print(GREEN + "Start of main program" + DEFAULT)
 
-    # Οι γειτωνικές σχέσεις του γράφου
     neighbours = {
         '1': set(['2', '4']),
         '2': set(['1', '3']),
@@ -15,7 +14,6 @@ if __name__ == '__main__':
         '6': set(['3', '5'])
     }
 
-    # Οι καταστάσεις που βρίσκετε το κάθε node στον γράφο
     spaces = {
         '1': ["Empty", "NO"],
         '2': ["Platform 1", "NO"],
@@ -25,7 +23,6 @@ if __name__ == '__main__':
         '6': ["Platform 5", "NO"]
     }
 
-    # Το επιθυμιτό, τελικό αποτέλεσμα
     goal_state = {
         "Empty": "NO",
         "Platform 1": "YES",
@@ -43,9 +40,6 @@ if __name__ == '__main__':
     method = input("Choose method you want to use.\nAvailable Methods DFS, BFS, BestFS: " + GREEN)
 
     while True:
-        # Επέστρεψε την νέα μορφή των καταστάσεων του γράφουν.
-        # Εάν εγίνε κάτι λάθος στην πορεία του προγράμματος, επιστρέφει empty και
-        # λήγει το πρόγραμμα.
         spaces = find_solution(neighbours, spaces, goal_state, method)
         if spaces is None:
             break

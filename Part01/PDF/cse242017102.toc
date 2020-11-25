@@ -13,3 +13,43 @@
 \contentsline {paragraph}{}{3}%
 \contentsline {subsection}{\numberline {3.4}\IeC {\textTau }\IeC {\textepsilon }\IeC {\textlambda }\IeC {\textepsilon }\IeC {\textsigma }\IeC {\texttau }\IeC {\'\textepsilon }\IeC {\textvarsigma } \IeC {\textpi }\IeC {\textrho }\IeC {\textomicron }\IeC {\textbeta }\IeC {\textlambda }\IeC {\'\texteta }\IeC {\textmu }\IeC {\textalpha }\IeC {\texttau }\IeC {\textomicron }\IeC {\textvarsigma }}{3}%
 \contentsline {paragraph}{}{3}%
+\contentsline {section}{\numberline {4}\IeC {\textKappa }\IeC {\textomega }\IeC {\textdelta }\IeC {\textiota }\IeC {\textkappa }\IeC {\textomicron }\IeC {\textpi }\IeC {\textomicron }\IeC {\'\textiota }\IeC {\texteta }\IeC {\textsigma }\IeC {\texteta }}{4}%
+\contentsline {subsection}{\numberline {4.1}\IeC {\textOmicron }\IeC {\textrho }\IeC {\textiota }\IeC {\textsigma }\IeC {\textmu }\IeC {\'\textomicron }\IeC {\textvarsigma } \IeC {\textkappa }\IeC {\textalpha }\IeC {\texttau }\IeC {\'\textalpha }\IeC {\textsigma }\IeC {\texttau }\IeC {\textalpha }\IeC {\textsigma }\IeC {\texteta }\IeC {\textvarsigma }}{4}%
+\contentsline {paragraph}{}{4}%
+\contentsline {paragraph}{}{4}%
+\contentsline {subsection}{\numberline {4.2}\IeC {\textKappa }\IeC {\textomega }\IeC {\textdelta }\IeC {\textiota }\IeC {\textkappa }\IeC {\textomicron }\IeC {\textpi }\IeC {\textomicron }\IeC {\textiota }\IeC {\'\texteta }\IeC {\textmu }\IeC {\textepsilon }\IeC {\textnu }\IeC {\textomicron }\IeC {\textiota } \IeC {\textTau }\IeC {\textepsilon }\IeC {\textlambda }\IeC {\textepsilon }\IeC {\textsigma }\IeC {\texttau }\IeC {\'\textepsilon }\IeC {\textvarsigma } \IeC {\textEpsilon }\IeC {\textlambda }\IeC {\'\textepsilon }\IeC {\textgamma }\IeC {\textchi }\IeC {\textomicron }\IeC {\textupsilon }}{5}%
+\contentsline {paragraph}{}{5}%
+\contentsline {subsection}{\numberline {4.3}is empty}{5}%
+\contentsline {paragraph}{}{5}%
+\contentsline {paragraph}{}{6}%
+\contentsline {paragraph}{}{6}%
+\contentsline {subsection}{\numberline {4.4}is goal}{6}%
+\contentsline {paragraph}{}{7}%
+\contentsline {paragraph}{}{7}%
+\contentsline {paragraph}{}{7}%
+\contentsline {subsection}{\numberline {4.5}\IeC {\textTau }\IeC {\textepsilon }\IeC {\textlambda }\IeC {\textepsilon }\IeC {\textsigma }\IeC {\texttau }\IeC {\'\textepsilon }\IeC {\textvarsigma } \IeC {\textMu }\IeC {\textepsilon }\IeC {\texttau }\IeC {\'\textalpha }\IeC {\textbeta }\IeC {\textalpha }\IeC {\textsigma }\IeC {\texteta }\IeC {\textvarsigma }}{7}%
+\contentsline {subsection}{\numberline {4.6}find solution}{8}%
+\contentsline {paragraph}{}{9}%
+\contentsline {paragraph}{}{10}%
+\contentsline {paragraph}{}{10}%
+\contentsline {paragraph}{}{10}%
+\contentsline {section}{\numberline {5}\IeC {\textAlpha }\IeC {\textlambda }\IeC {\textgamma }\IeC {\'\textomicron }\IeC {\textrho }\IeC {\textiota }\IeC {\texttheta }\IeC {\textmu }\IeC {\textomicron }\IeC {\textiota } \IeC {\textAlpha }\IeC {\textnu }\IeC {\textalpha }\IeC {\textzeta }\IeC {\'\texteta }\IeC {\texttau }\IeC {\texteta }\IeC {\textsigma }\IeC {\texteta }\IeC {\textvarsigma }}{11}%
+\contentsline {paragraph}{}{11}%
+\contentsline {subsection}{\numberline {5.1}DFS}{11}%
+\contentsline {paragraph}{}{12}%
+\contentsline {paragraph}{}{12}%
+\contentsline {paragraph}{}{12}%
+\contentsline {paragraph}{}{12}%
+\contentsline {subsection}{\numberline {5.2}BFS}{13}%
+\contentsline {paragraph}{}{13}%
+\contentsline {paragraph}{}{14}%
+\contentsline {paragraph}{}{14}%
+\contentsline {paragraph}{}{14}%
+\contentsline {subsection}{\numberline {5.3}BestFS}{15}%
+\contentsline {paragraph}{}{16}%
+\contentsline {paragraph}{}{16}%
+\contentsline {paragraph}{}{16}%
+\contentsline {section}{\numberline {6}\IeC {\textEpsilon }\IeC {\textnu }\IeC {\textdelta }\IeC {\textepsilon }\IeC {\textiota }\IeC {\textkappa }\IeC {\texttau }\IeC {\textiota }\IeC {\textkappa }\IeC {\'\textalpha } \IeC {\textTau }\IeC {\textrho }\IeC {\textepsilon }\IeC {\textxi }\IeC {\'\textiota }\IeC {\textmu }\IeC {\textalpha }\IeC {\texttau }\IeC {\textalpha }}{17}%
+\contentsline {paragraph}{}{18}%
+\contentsline {section}{\numberline {7}\IeC {\textSigma }\IeC {\textupsilon }\IeC {\textmu }\IeC {\textpi }\IeC {\textepsilon }\IeC {\textrho }\IeC {\'\textalpha }\IeC {\textsigma }\IeC {\textmu }\IeC {\textalpha }\IeC {\texttau }\IeC {\textalpha } - \IeC {\textBeta }\IeC {\textepsilon }\IeC {\textlambda }\IeC {\texttau }\IeC {\textiota }\IeC {\'\textomega }\IeC {\textsigma }\IeC {\textepsilon }\IeC {\textiota }\IeC {\textvarsigma }}{19}%
+\contentsline {paragraph}{}{19}%
